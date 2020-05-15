@@ -2,7 +2,7 @@
 
 ## 1. Anomaly Detecton
 
-You have 67 time series data, please add a columns call "anomaly".
+You have 67 time series data in `data/anomaly_detection/time-series.zip`, please add a columns called "anomaly".
 
 Fill 1 if the point is anomaly else 0, you can use *any* method to detect anomaly.
 
@@ -10,7 +10,7 @@ Fill 1 if the point is anomaly else 0, you can use *any* method to detect anomal
 
 ## 2. Pandas
 
-Please use *pandas* transform *need_aggregate.csv* from Figure 1 to Figure 2.
+Please use [pandas](https://pandas.pydata.org/) transform `data/pandas/need_aggregate.csv` from Figure 1 to Figure 2.
 
 + Figure 1
 
@@ -22,4 +22,6 @@ Please use *pandas* transform *need_aggregate.csv* from Figure 1 to Figure 2.
 
 ## 3. Deep Learning
 
-Use one of framework (*TensorFlow*/*PyTorch*/*Keras*) to build an LSTM Model, train and predict the file you produce on step 2. Please point out which time point is an anomaly.
+Use one of framework (*TensorFlow*/*PyTorch*/*Keras*) to build an LSTM Model, train and predict the file you produce on step 2.
+
+Please point out which time point is an anomaly, Add a column called "anomaly", fill 1 if the point is anomaly else 0.
