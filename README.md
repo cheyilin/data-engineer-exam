@@ -10,7 +10,7 @@ Fill 1 if the point is anomaly else 0, you can use *any* method to detect anomal
 
 ## 2. Pandas
 
-Please use [pandas](https://pandas.pydata.org/) transform `data/pandas/need_aggregate.csv` from Figure 1 to Figure 2.
+Please use [pandas](https://pandas.pydata.org/) transform `data/pandas/train_need_aggregate.csv` & `data/pandas/test_need_aggregate.csv` from Figure 1 to Figure 2.
 
 + Figure 1
 
@@ -22,6 +22,8 @@ Please use [pandas](https://pandas.pydata.org/) transform `data/pandas/need_aggr
 
 ## 3. Deep Learning
 
-Use one of framework (*TensorFlow*/*PyTorch*/*Keras*) to build an LSTM Model, train and predict the file you produce on step 2.
+1. Use deep learning framework *PyTorch* to build an LSTM Model.
 
-Please point out which time point is an anomaly, Add a column called "anomaly", fill 1 if the point is anomaly else 0.
+2. Use the model you build on step 1 & use the train file you aggregate on `Pandas` stage to train a model. Save the model weight somewhere.
+
+3. Load the model weight to predict the test file you aggregate on `Pandas` stage & point out which time point is an anomaly. Add a column called "anomaly", fill 1 if the point is anomaly else 0.
