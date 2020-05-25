@@ -43,7 +43,7 @@ if __name__ == '__main__':
     if not os.path.exists('result'):
         os.mkdir('result')
 
-    zip_path = 'time-series.zip'
+    zip_path = 'data/time-series.zip'
     archive = zipfile.ZipFile(zip_path, 'r')
 
     for i in range(1, 68):
