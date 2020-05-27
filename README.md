@@ -8,7 +8,7 @@ Before the test, please use `virtalenv` to build the environment. You can add th
 
 You have 67 time series data in `exam1/data/time-series.zip`, some of them contain anomaly points and some are not.
 
-Please finished `algorithm.py` that return `1` if the point your algorithm detects its anomaly else `0`, you can use *ANY* methods to detect anomalies.
+Please finished `algorithm.py` that return `1` if the points your algorithm detect is anomaly else `0`, you can use *ANY* methods to detect anomalies.
 
 ## Evaluate
 
