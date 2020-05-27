@@ -25,7 +25,7 @@ python detector.py
 
 ## 2. Exam 2
 
-Use [Pandas](https://pandas.pydata.org/) to transform data `data/pandas/train_need_aggregate.csv` and `data/pandas/test_need_aggregate.csv` from [Figure 1](#figure-1) to [Figure 2](#figure-2).
+Use [Pandas](https://pandas.pydata.org/) to transform data `exam2/data/train_need_aggregate.csv` and `exam2/data/test_need_aggregate.csv` from [Figure 1](#figure-1) to [Figure 2](#figure-2).
 
 ### Figure 1
 
@@ -37,7 +37,7 @@ Use [Pandas](https://pandas.pydata.org/) to transform data `data/pandas/train_ne
 
 ### Evaluate
 
-Please output two files `train.csv` and `test.csv` in `result` folder via the command below:
+Please output two files `train.csv` and `test.csv` in `exam2/result` folder via the command below:
 
 ```python
 cd exam2
@@ -57,8 +57,9 @@ python main.py
 
 3. (bonus1) Finish the `predict.py` to load the model weight to predict the test file you aggregated in question [**Exam 2**](#2-exam-2).
 
-   3.1. (bonus2) Point out which time point is an anomaly. Add a column called `anomaly`, fill `1` if the point is anomaly else `0`. Output the result call `predict.csv` to `result` folder.
+   3.1. (bonus2) Point out which time point is an anomaly. Add a column called `anomaly`, fill `1` if the point is anomaly else `0`. Output the result call `predict.csv` to `exam3/result` folder.
 
    ```python
+   cd exam3
    python predict.py
    ```
